@@ -1,0 +1,16 @@
+Part 1 theory Answers:-
+
+1. Firstly I would see the error message in the test result/report. If error is not clear, I would check logs of the respective services to see if there is a technical issue like connection problem,etc or a functional bug. Then I will either inform DEV/DEVOPS team in case it's a technical issue or align with the concerned developer in case it's a functional bug.
+
+
+2. a) Technical issues in case it has passed on the same build previously. 
+   b) Possible functional bug if it's a new build. 
+   c) The test case is maybe testing a scenario that is out of scope or not considerded while requirement gathering phase.
+   d) Knowledge gap of the developer/tester.
+   e) Already existing issue that came up after adding new functionality or test cases.
+   
+
+3. Firstly I will verify if the User took the correct steps to place the order. Then I would check the Engine logs since it sends the ACK to the User.
+
+
+4. This looks like a possible issue in the Gateway between the Engine and the other WAN users. So will check Engine and Gateway logs for any error messsages like connection issues, et.
